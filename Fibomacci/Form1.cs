@@ -16,7 +16,7 @@ namespace Fibomacci
                 Sor újSor = new Sor();
                 újSor.Ertek = Fibonacci(i);
                 újSor.Sorszam = i;
-
+                //randmom komment
                 sorok.Add(újSor);
             }
             dataGridView1.DataSource = sorok;
