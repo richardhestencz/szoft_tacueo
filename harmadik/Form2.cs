@@ -20,9 +20,10 @@ namespace harmadik
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            Random random = new Random();
             Button b = new Button();
             Controls.Add(b);
-            int magasság = ;
+            int méret = random.Next(0, 255);
             for (int sor = 0; sor < 20; sor++)
             {
                 for (int oszlop = 0; oszlop < 20; oszlop++)
@@ -35,5 +36,6 @@ namespace harmadik
                     p.Top = méret * sor;
                 }
             }
+        }
     }
 }
