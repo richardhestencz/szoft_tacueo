@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibomacci", "Fibomacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascal_haromszog", "pascal_haromszog\pascal_haromszog.csproj", "{31A1AD0B-FB2A-417A-B760-6BC3C6448265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadik", "harmadik\harmadik.csproj", "{3A570CC8-FE16-4DEF-976F-405B261D2AC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadik", "harmadik\harmadik.csproj", "{3A570CC8-FE16-4DEF-976F-405B261D2AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH1_tacueo", "ZH1_tacueo\ZH1_tacueo.csproj", "{65294D69-1123-4229-87C9-41EA5BE07D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3A570CC8-FE16-4DEF-976F-405B261D2AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A570CC8-FE16-4DEF-976F-405B261D2AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A570CC8-FE16-4DEF-976F-405B261D2AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65294D69-1123-4229-87C9-41EA5BE07D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65294D69-1123-4229-87C9-41EA5BE07D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65294D69-1123-4229-87C9-41EA5BE07D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65294D69-1123-4229-87C9-41EA5BE07D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
