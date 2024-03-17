@@ -11,10 +11,10 @@ namespace Fibomacci
         {
             List<Sor> sorok = new List<Sor>();
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 1; i < 10; i++)
             {
                 Sor újSor = new Sor();
-                újSor.Ertek = Fibonacci(i);
+                újSor.Ertek = i;
                 újSor.Sorszam = i;
                 //randmom komment
                 sorok.Add(újSor);
@@ -26,7 +26,7 @@ namespace Fibomacci
         {
             if (n == 0) return 0;
             if (n == 1) return 1;
-            return Fibonacci(n - 1) + Fibonacci(n - 2);
+            else return Fibonacci(n - 1) + Fibonacci(n - 2);
 
 
         }
