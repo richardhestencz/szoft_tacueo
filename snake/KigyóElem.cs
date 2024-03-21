@@ -9,7 +9,7 @@ namespace snake
     internal class KigyóElem : PictureBox
     {
         public static int Méret = 20;
-        public static int hossz = 15;
+        public static int hossz = 1;
 
         public KigyóElem()
         {

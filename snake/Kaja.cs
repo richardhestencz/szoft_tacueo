@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace snake
 {
-    internal class Kaja
+    internal class Kaja : PictureBox
     {
+        public static int Méret = 20;
 
+        public Kaja()
+        {
+            Width = Kaja.Méret;
+            Height = Kaja.Méret;
+            BackColor = Color.Red;
+        }
     }
 }
