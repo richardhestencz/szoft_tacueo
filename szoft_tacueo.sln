@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajósTeszt", "HajósTeszt\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.hetgyak", "5.hetgyak\5.hetgyak.csproj", "{78B6B871-D3E7-43FB-A824-D97B74CF5062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snake", "snake\snake.csproj", "{630D143E-85B9-4B74-BC61-2DB3BF30E366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "snake", "snake\snake.csproj", "{630D143E-85B9-4B74-BC61-2DB3BF30E366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhgyakora2", "..\zhgyakora2\zhgyakora2.csproj", "{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{630D143E-85B9-4B74-BC61-2DB3BF30E366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630D143E-85B9-4B74-BC61-2DB3BF30E366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630D143E-85B9-4B74-BC61-2DB3BF30E366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
