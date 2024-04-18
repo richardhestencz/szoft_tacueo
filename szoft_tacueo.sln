@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "snake", "snake\snake.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhgyakora2", "..\zhgyakora2\zhgyakora2.csproj", "{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhotthoni", "zhotthoni\zhotthoni.csproj", "{AE7B241A-CFB6-490F-AD29-5224A6C78D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D2FB3DF-3258-45DB-8DD9-D2B05416300D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7B241A-CFB6-490F-AD29-5224A6C78D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7B241A-CFB6-490F-AD29-5224A6C78D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7B241A-CFB6-490F-AD29-5224A6C78D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7B241A-CFB6-490F-AD29-5224A6C78D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
