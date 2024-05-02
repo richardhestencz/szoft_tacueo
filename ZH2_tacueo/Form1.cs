@@ -49,7 +49,10 @@ namespace ZH2_tacueo
 
                     var csv = new CsvWriter(sw, CultureInfo.InvariantCulture);
 
+                    //csv.WriteRecords<>;
                     sw.Close();
+
+                   
                 }
             }
             catch (Exception ex)
