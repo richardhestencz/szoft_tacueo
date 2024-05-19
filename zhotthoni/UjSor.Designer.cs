@@ -63,7 +63,6 @@
             // 
             // textBox7
             // 
-            textBox7.DataBindings.Add(new Binding("Text", kerdesekBindingSource, "Szam", true));
             textBox7.Location = new Point(45, 35);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(347, 23);

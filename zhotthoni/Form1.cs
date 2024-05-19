@@ -10,6 +10,7 @@ namespace zhotthoni
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,8 +40,8 @@ namespace zhotthoni
 
                 MessageBox.Show(ex.Message);
             }
-
             kerdesekBindingSource.DataSource = kerdeseke;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -90,21 +91,21 @@ namespace zhotthoni
             try
             {
 
-                kerdesek valasz = new kerdesek();
+                
                 int helyesValaszCount = 0;
                 int helyesValaszCount2 = 0;
                 int helyesValaszCount3 = 0;
-                
-               
+
+
 
                 foreach (var item in kerdeseke)
                 {
 
-                    if (item.HelyesValasz == 1) 
+                    if (item.HelyesValasz == 1)
                     {
                         helyesValaszCount++;
 
-                        
+
                     }
                     if (item.HelyesValasz == 2)
                     {
@@ -119,11 +120,14 @@ namespace zhotthoni
                     }
                 }
 
-                List<int> numbers = new List<int> { helyesValaszCount,helyesValaszCount2,helyesValaszCount3 };
+                
+                List<int> numbers = new List<int> { helyesValaszCount, helyesValaszCount2, helyesValaszCount3 };
+                
+                
                 int maxFromList = numbers.Max();
 
                 MessageBox.Show("HelyesVálasz count: " + maxFromList.ToString());
-            
+
 
 
 
@@ -133,7 +137,20 @@ namespace zhotthoni
 
                 MessageBox.Show(ex.Message);
             }
-            
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+
+
+        {
+            if (kerdesekBindingSource.Current == null) return;
+
+            UjSor ujSor = new UjSor();
+
+            ujSor.ujkerdes = kerdesekBindingSource.AddNew() as kerdesek;
+
+            ujSor.Show();
         }
     }
 }

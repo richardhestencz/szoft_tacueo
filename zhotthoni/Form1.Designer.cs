@@ -43,6 +43,7 @@
             button3 = new Button();
             uj = new Button();
             button4 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)kerdesekBindingSource).BeginInit();
             SuspendLayout();
@@ -164,11 +165,22 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // button5
+            // 
+            button5.Location = new Point(298, 380);
+            button5.Name = "button5";
+            button5.Size = new Size(129, 58);
+            button5.TabIndex = 6;
+            button5.Text = "hozzaadas";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(uj);
             Controls.Add(button3);
@@ -199,5 +211,6 @@
         private Button uj;
         public BindingSource kerdesekBindingSource;
         private Button button4;
+        private Button button5;
     }
 }
