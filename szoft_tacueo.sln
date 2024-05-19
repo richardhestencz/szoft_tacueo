@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhgyakora2", "..\zhgyakora2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhotthoni", "zhotthoni\zhotthoni.csproj", "{AE7B241A-CFB6-490F-AD29-5224A6C78D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZH2_tacueo", "ZH2_tacueo\ZH2_tacueo.csproj", "{D7F34BBA-0334-4C16-85C2-B4EAA0934AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZH2_tacueo", "ZH2_tacueo\ZH2_tacueo.csproj", "{D7F34BBA-0334-4C16-85C2-B4EAA0934AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hangman", "hangman\hangman.csproj", "{B720631D-365B-4BD2-A28B-072DF241BFF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D7F34BBA-0334-4C16-85C2-B4EAA0934AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F34BBA-0334-4C16-85C2-B4EAA0934AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F34BBA-0334-4C16-85C2-B4EAA0934AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B720631D-365B-4BD2-A28B-072DF241BFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B720631D-365B-4BD2-A28B-072DF241BFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B720631D-365B-4BD2-A28B-072DF241BFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B720631D-365B-4BD2-A28B-072DF241BFF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
